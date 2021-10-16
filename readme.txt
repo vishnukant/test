@@ -10,5 +10,8 @@ git commit -m 'update feature-1'
 git checkout master
 git merge feature-1
 git remote add origin git@github.com:vishnukant/test.git
+
+ssh-keygen  #generate public private key and on github deplyment key
+
 git push origin master
 
